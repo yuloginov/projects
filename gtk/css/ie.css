@@ -1,0 +1,38 @@
+.hf {
+    font-size: 11px;
+    text-align: center;
+}
+
+.ie {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-family: Tahoma, Verdana, Arial, Helvetica;
+}
+
+.ie p {
+    color: #fff;
+    margin: 0.5em;
+}
+
+.ie p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.ie a {
+    padding: 5px 10px;
+    background: #f40534;
+    color: #fff;
+    text-decoration: none;
+    line-height: 3em;
+}
+
+.ie a:hover {
+    background: #fff;
+    color: #f40534;
+}
