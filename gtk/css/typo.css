@@ -340,7 +340,7 @@ nav ul, nav ol {
 	line-height: 44px;
 }
 
-/* Request */
+/* REQUEST */
 
 .request .head {
 	font-family: VeraCrouz;
@@ -348,4 +348,45 @@ nav ul, nav ol {
 	color: #6d264a;
 	line-height: 94px;
 	text-align: center;
+}
+
+.inputwrapper .label p{
+	text-align: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+/* CONTACTBLOCK */
+
+.contactblockhead  > p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #6d264a;
+	line-height: 26px;
+}
+
+.contactblocktext > p > a {
+	color: #6d264a;
+}
+
+/* FOOTER */
+
+.footer .container .text p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #b492a2;
+	line-height: 20px;
+}
+.footer .container .text p span, .footer .container .text p a {
+	color: #fff;
+}
+
+.footer .container .head p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 44px;
+	color: #fff;
+	line-height: 48px;
 }

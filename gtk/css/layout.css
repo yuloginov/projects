@@ -532,8 +532,90 @@ p {
 	position: absolute;
 }
 
-/* Request */
+/* REQUEST */
 
 .request {
 	margin-top: 140px;
+}
+
+.sendrequest {
+	margin-top: 60px;
+}
+
+.inputwrapper .checkboxes {
+	margin-top: 25px;
+	width: 350px;
+	
+	margin-right: 155px;
+	float: right;
+	text-align: left;
+}
+
+.inputwrapper .label {
+	margin-top: 25px;
+	margin-right: 40px;
+	width: 415px;
+	float: right;
+}
+.inputwrapper .label.textarealabel {
+	margin-top: 70px;
+}
+
+.inputwrapper .checkboxes .left,
+.inputwrapper .checkboxes .right {
+	width: 185px;
+	float: left;
+}
+.inputwrapper .checkboxes .right {
+	width: 165px;
+}
+
+.checkboxwrapper {margin-bottom: 10px;}
+
+.inputwrapper.inline{
+	display: inline-block;
+}
+
+.inputwrapper.submitwr {
+	margin-top: 30px;
+}
+
+/* CONTACTBLOCK */
+
+.contactblock {
+	margin-top: 145px;
+}
+
+.contactblocktext {
+	margin-top: 30px;
+}
+
+/* FOOTER-SEPARATOR */
+
+.footer-separator {
+	background: url(../img/footer-separator.png) repeat-x;
+	width: 100%;
+	height: 20px;
+	margin-top: 140px;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #4d2b3b;
+	padding-top: 55px;
+	padding-bottom: 75px;
+}
+
+.footer-logo {
+	background: url(../img/footer-logo.png) repeat-x;
+	width: 124px;
+	height: 162px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.footer .container .head {
+	margin-top: 50px;
+	margin-bottom: 30px;
 }

@@ -3,3 +3,88 @@
 textarea {
     resize: vertical;
 }
+
+.inputwrapper {
+	text-align: right;
+}
+
+.inputwrapper label {
+	margin-right: 40px;
+	max-width: 255px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
+.inputwrapper  input[type=text], .inputwrapper  select {
+	background: url(../img/formelements/textinput.png) top right no-repeat;
+	margin-right: 155px;
+	margin-top: 20px;
+	width: 335px;
+	height: 40px;
+	color: #7b7b7b;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	padding-left: 15px;
+}
+.inputwrapper  input[type=text]{
+	border: none;
+}
+
+.inputwrapper  select {
+	width: 350px;
+	background: url(../img/formelements/select.png) top right no-repeat;
+	appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.inputwrapper select::-ms-expand {
+  display: none;
+}
+
+.inputwrapper  input[type=checkbox] {
+	float: left;
+	height: 21px;
+	width: 21px;
+	border: 3px solid #dcdcdc;
+	margin-right: 12px;
+	appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #333;
+	~background: #abe2f9;
+}
+.inputwrapper  input[type=checkbox]:checked {
+	background: #6d264a;
+}
+
+.inputwrapper .textarea {
+	background: url(../img/formelements/textarea.png) top right no-repeat;
+	width: 335px;
+	height: 128px;
+	margin-right: 155px;
+	margin-top: 75px;
+	resize: none;
+	border: none;
+	outline:none;
+	padding: 15px 0 0 15px;
+	color: #7b7b7b;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	float: right;
+}
+
+.submit {
+	margin-right: 260px;
+	background: #da1a2b;
+	width: 247px;
+	height: 59px;
+	border: none;
+	border-bottom: 9px solid #ad121f;
+}
