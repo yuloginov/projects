@@ -79,23 +79,17 @@ p {
 	background: url(../img/header-bg.png) top center no-repeat;
 	width: 100%;
 	height: 836px;
+	position: relative;
+	overflow: hidden;
 }
 
 .header .container {
-	padding-top: 50px;
-}
-
-.headerlogo {
-	
-	background: url(../img/header-bg-logo.png);
-	width: 128px;
-	height: 164px;
-	margin: 0 auto;
+	padding-top: 244px;
 }
 
 .header-fnt-top {
 	background: url(../img/header-fnt-top.png);
-	margin: 30px auto 0 auto;
+	margin: 0 auto 0 auto;
 	width: 168px;
 	height: 28px;
 }
@@ -148,16 +142,39 @@ p {
 	top: 17px;
 }
 
-/* HEADER 2 */
-.header2 {
-	margin: 0;
-	height: 132px;
-	border-bottom: 2px solid #daced4;
+.headerrightblock {
+	position: absolute;
+	width: 300px;
+	height: 140px;
+	background: #52273d;
+	opacity: 0.9;
+	right: -25px;
+	top: 535px;
+	transform: skew(-10.125deg);
+	-o-transform: skew(-10.125deg);
+	-moz-transform: skew(-10.125deg);
+	-ms-transform: skew(-10.125deg);
+	-webkit-transform: skew(-10.125deg);
 }
 
-.header2text {
-	margin: 0;
-	padding-top: 40px;
+.headerrightblock > div {
+	margin-right: 0;
+	transform: skew(10.125deg);
+	-o-transform: skew(10.125deg);
+	-moz-transform: skew(10.125deg);
+	-ms-transform: skew(10.125deg);
+	-webkit-transform: skew(10.125deg);
+}
+
+.headerrightblock > div > p{
+	margin: auto;
+	padding-right: 50px;
+	text-align: right;
+}
+
+.headerrightblock > div > .lt{
+	padding-top: 25px;
+	padding-bottom: 20px;
 }
 
 /* BLOCK 1 */
@@ -166,8 +183,36 @@ p {
 	~height: 1380px;
 }
 
-.block1head {
+.block1head1 {
 	margin-top: 110px;
+}
+
+.block1head-hr {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 875px;
+	height: 14px;
+}
+
+.block1head-hrline {
+	float: left;
+	height:7px;
+	border-bottom: 1px solid #6d264a;
+	width: 408px;
+}
+
+.block1head-r {
+	width: 14px;
+	height: 14px;
+	background: #6d264a;
+	border-radius: 7px;
+	margin-left: 23px;
+	margin-right: 22px;
+	float: left;
+}
+
+.block1head2 {
+	margin-top: 75px;
 }
 
 .block1text {
@@ -220,4 +265,275 @@ p {
 	width: 18px;
 	height: 18px;
 	border-radius: 9px;
+}
+
+/* BLOCK 2 */
+
+.block2 {
+	width: 100%;
+	background: url(../img/block2-bg.png) top center repeat;
+	padding-top: 80px;
+}
+
+.block2text {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.block2img {
+	margin-left: 10px;
+	width: 940px;
+	overflow: hidden;
+	padding-bottom: 130px;
+}
+.block2img .elements {
+	width: 1200px;
+}
+
+.block2img .elements .element {
+	height: 405px;
+	width: 259px;
+	float: left;
+	margin-right: 81px;
+}
+
+.block2img .elements .element .elementimg {
+	width: 255px;
+	height: 255px;
+	border: 2px solid #daced4;
+}
+
+.block2img .elements .element .elementimg img{
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.block2img .elements .element .elementtext {
+	margin-top: 35px;
+}
+
+/* REQUESTBLOCK 1 */
+
+.requestblock1 {
+	width: 100%;
+	background: url(../img/requestblock1-bg.png) top center repeat-x;
+	height: 322px;
+	margin-top: -20px;
+	padding-top: 65px;
+}
+
+.mkrequest1-button  {
+	display: block;
+	margin: 0 auto;
+	background: #da1a2b;
+	border-bottom: 9px solid #ad121f;
+	height: 72px;
+	width: 317px;
+}
+
+.request1text {
+	margin-top: 40px;
+}
+
+/* BLOCK 3 140 */
+.block3 .container .content{
+	display: inline-block;
+}
+
+.block3slider {
+	margin-left: 10px;
+	width: 415px;
+	float: left;
+}
+
+.block3slider-elements ul {
+	margin: 0;
+	padding: 0;
+}
+
+.block3slider #pag {
+	margin-left: 160px;
+	margin-top: 40px;
+}
+
+.block3slider #pag li {
+	background: #6d264a;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+.block3slider #pag .active,
+.block3slider #pag  li:hover {
+	background: #333333;
+}
+
+.block3text {
+	margin-left: 100px;
+	width: 435px;
+	float: left;
+}
+
+.block3text-head {
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.block3text-text {
+	margin-top: 10px;
+}
+
+.block3text-text > p {
+	margin: 36px auto !important;
+}
+
+/* BLOCK 4 */
+
+.block4 {
+	padding-top: 190px;
+}
+
+.bankets {
+	margin-top: 175px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+.bankets-container {
+	width: 950px;
+	padding-top: 55px;
+}
+
+.banket {
+	background: url(../img/banket-bg.png) no-repeat; 
+	width: 250px;
+	height: 277px; /* 432 487  -55 */ /* padding -160 */
+	position: relative;
+	padding-top: 160px;
+	margin-right: 65px;
+	float: left;
+}
+
+.banket .pos2 {
+	position: absolute;
+	bottom: 105px;
+	width: 100%;
+}
+
+.mkrequest2-button {
+	background: #da1a2b;
+	display: block;
+	height: 48px;
+	width: 182px;
+	border-bottom: 9px solid #ad121f;
+	bottom: 20px;
+	left: 33px;
+	position: absolute;
+}
+
+.banketlogo {
+	
+	height: 182px;
+	width: 182px;
+	top: -55px;
+	left: 34px;
+	position: absolute;
+}
+.banketlogo.logo1 {
+	background: url(../content/banketslogo/logo1.png) no-repeat;
+}
+.banketlogo.logo2 {
+	background: url(../content/banketslogo/logo2.png) no-repeat;
+}
+.banketlogo.logo3 {
+	background: url(../content/banketslogo/logo3.png) no-repeat;
+}
+
+.bankettext {
+	margin-top: 20px;
+}
+
+/* CALENDAR */
+
+.calendar {
+	margin-top: 90px;
+}
+
+.cal {
+	margin-left: 10px;
+}
+
+/* BLOCK 5 */
+
+.block5 {
+	margin-top: 130px;
+}
+
+.block5 .conttop {
+	margin: 0 auto;
+	background: url(../img/block5-bg1.png) no-repeat;
+	width: 874px;
+	height: 332px;
+}
+
+.block5 .container .conttop div .text {
+	margin-top: 30px;
+}
+
+.block5 .conttop .left {
+	margin-top: 30px;
+	margin-left: 40px;
+	float: left;
+	width: 400px;
+}
+
+.block5 .conttop .right {
+	margin-top: 30px;
+	margin-left: 40px;
+	float: left;
+}
+
+.block5 .contbottom {
+	margin: 0 auto;
+	margin-top: 55px;
+	background: url(../img/block5-bg2.png) no-repeat;
+	width: 872px;
+	height: 240px;
+}
+
+.block5 .contbottom .left {
+	margin-top: 45px;
+	margin-left: 30px;
+	float: left;
+	width: 405px;
+}
+
+.block5 .contbottom .right {
+	margin-top: 30px;
+	margin-left: 145px;
+	float: left;
+}
+
+/* PARRALAX */
+
+.parralax {
+	width: 100%;
+	height: 335px;
+	margin-top: 130px;
+	position: relative;
+}
+
+.parralaxmask {
+	width: 100%;
+	background: url(../img/parralax-bg.png) repeat-x;
+	height: 335px;
+	top: -5px;
+	z-index: 10;
+	position: absolute;
+}
+
+/* Request */
+
+.request {
+	margin-top: 140px;
 }

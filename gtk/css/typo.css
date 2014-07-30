@@ -189,15 +189,163 @@ nav ul, nav ol {
 	font-size: 165px;
 }
 .headertext3 {
-	font-size: 75px;
+	font-size: 60px;
+}
+
+.headerrightblock > div > p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	line-height: 28px;
+}
+.headerrightblock > div > .lt {
+	font-size: 14px;
+	line-height: 14px;
+	color: #ad8a9c;
 }
 
 /* BLOCK 1 */
 
-.block1head > p {
+.block1head1 > p {
+	font-family: VeraCrouz;
+	font-size: 60px;
+	line-height: 68px;
+	color: #6d264a;
+}
+
+.block1head2 > p {
 	font-family: VeraCrouz;
 	font-size: 80px;
 	line-height: 68px;
 	color: #6d264a;
 }
 
+/* BLOCK 2 */
+.block2head {
+	font-family: VeraCrouz;
+	font-size: 80px;
+	color: #6d264a;
+	line-height: 80px;
+	text-align: center;
+}
+
+/* REQUESTBLOCK 1 */
+
+.mkrequest1-button {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	line-height: 76px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.request1text > p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 44px;
+	color: #333333;
+
+}
+
+.request1text > p > span {
+	font-size: 18px;
+	line-height: 72px;
+}
+
+/* BLOCK 3 */
+
+
+.block3text-head {
+	font-family: VeraCrouz;
+	font-size: 90px;
+	color: #6d264a;
+	line-height: 104px;
+}
+
+.block3text-text > p { 
+	text-align: left;
+}
+
+/* BLOCK 4 */
+
+.bankethead1 > p, .bankethead2 > p, .bankethead3 > p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+.bankethead1 > p {
+	color: #923564;
+}
+.bankethead2 > p {
+	color: #2e9283;
+}
+.bankethead3 > p {
+	color: #6e3095;
+}
+
+.bankettext > p {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.mkrequest2-button {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+/* BLOCK 5 */
+
+.block5 .container .conttop div .head p{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 34px;
+	color: #FFF;
+	line-height: 50px;
+	text-align: left;
+}
+.block5 .container .conttop div .head p span{
+	font-size: 50px;
+}
+
+.block5 .container .conttop div .text p{
+	color: #764c61;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+}
+.block5 .container .conttop .right .text p{
+	color: #4e293b;
+}
+
+.block5 .container .contbottom .left p{
+	font-size: 22px;
+	color: #FFF;
+	text-align: left;
+	line-height: 26px;
+}
+
+.block5 .container .contbottom .right p{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 55px;
+	color: #FFF;
+	line-height: 70px;
+}
+.block5 .container .contbottom .right .small{
+	font-size: 25px;
+	line-height: 44px;
+}
+
+/* Request */
+
+.request .head {
+	font-family: VeraCrouz;
+	font-size: 90px;
+	color: #6d264a;
+	line-height: 94px;
+	text-align: center;
+}
