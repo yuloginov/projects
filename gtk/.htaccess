@@ -10,3 +10,4 @@ RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 RewriteCond %{HTTP_HOST} .
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteRule ^(.*)\.html$ $1.php [L]

@@ -390,3 +390,13 @@ nav ul, nav ol {
 	color: #fff;
 	line-height: 48px;
 }
+
+/* WINDOW */
+
+.windowhead p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #6d264a;
+	line-height: 26px;
+}

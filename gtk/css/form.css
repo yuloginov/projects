@@ -31,36 +31,65 @@ textarea {
 	border: none;
 }
 
-.inputwrapper  select {
+#ui-id-1-button {
 	width: 350px;
+	border-radius: 0;
 	background: url(../img/formelements/select.png) top right no-repeat;
-	appearance: none;
-	-ms-appearance: none;
-	-o-appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	padding-left: 15px;
+	color: #7b7b7b;
 }
-.inputwrapper select::-ms-expand {
-  display: none;
+#ui-id-1-button:hover {
+	border-color: #7b7b7b;
+}
+
+#ui-id-1-button .ui-selectmenu-text {
+	padding: 0.4em 2.1em 0.4em 0em;
+}
+
+/* select options */
+#ui-id-1-menu li {
+
+}
+/* hovered */
+#ui-id-1-menu .ui-state-focus {
+	color: #a28091;
+	border: 1px solid #4d2b3b;
+	background: #4d2b3b;
+}
+
+
+.wpselect {
+	position: relative;
+}
+
+.wpselect > span {
+	margin-top: 20px;
+	margin-right: 154px;
+	width: 335px !important;
+}
+
+.wpselect label {
+	top: 30px;
+	right: 510px;
+	position: absolute;
 }
 
 .inputwrapper  input[type=checkbox] {
-	float: left;
-	height: 21px;
-	width: 21px;
-	border: 3px solid #dcdcdc;
-	margin-right: 12px;
-	appearance: none;
-	-ms-appearance: none;
-	-o-appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 18px;
-	color: #333;
-	~background: #abe2f9;
+	display: none;
 }
-.inputwrapper  input[type=checkbox]:checked {
+
+.inputwrapper  input[type=checkbox] + label > div {
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #dcdcdc;
+	float: left;
+	margin-right: 12px;
+}
+.inputwrapper  input[type=checkbox]:checked + label > div {
 	background: #6d264a;
 }
 
@@ -87,4 +116,12 @@ textarea {
 	height: 59px;
 	border: none;
 	border-bottom: 9px solid #ad121f;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+}
+.submit:hover {
+	background: #86da1a;
+	border-bottom: 9px solid #45ad12;
 }
